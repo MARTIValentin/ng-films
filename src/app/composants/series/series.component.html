@@ -4,6 +4,16 @@
   </form>
 </div>
 
+<div *ngIf="serie$ | async as serye$">
+
+  <div *ngFor="let s of serye$.saisons">
+
+
+    <img src="{{s.image}}" alt="image de la série" (click)="changementDaffichage(s.id);">
+
+  </div>
+</div>
+
 
 <div *ngIf="tSerie$ | async as tSerie">
 
@@ -17,12 +27,4 @@
 
 
 
-<div *ngIf="serie$ | async as serye$">
 
-  <div *ngFor="let s of serye$">
-
-
-    <img src="{{s.}}" alt="image de la série" (click)="changementDaffichage(s.id);">
-
-  </div>
-</div>

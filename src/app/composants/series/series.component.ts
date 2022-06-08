@@ -11,7 +11,7 @@ import {Observable} from "rxjs";
 export class SeriesComponent implements OnInit {
 
   public tSerie$: Observable<Series[]>;
-  public serie$: Observable<Series>;
+  public serie$!: Observable<Series>;
 
   constructor(private svc: PremierServiceService) {
     this.tSerie$ = this.svc.tSeries$;
