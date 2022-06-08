@@ -1,0 +1,23 @@
+.divseries{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.cdiv1{
+  display: flex;
+  justify-content: center;
+  color: darkred;
+}
+
+.cdiv2{
+  display: flex;
+  justify-content: center;
+}
+
+.cbigdiv{
+  background-color: black;
+}
+
+
