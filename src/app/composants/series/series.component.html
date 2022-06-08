@@ -1,0 +1,28 @@
+<div class="crechercher" *ngIf="tSerie$ ">
+  <form>
+    <input type="text" id="Name" name="name" placeholder="Rechercher">
+  </form>
+</div>
+
+
+<div *ngIf="tSerie$ | async as tSerie">
+
+  <div *ngFor="let s of tSerie">
+
+
+    <img src="{{s.image}}" alt="image de la série" (click)="changementDaffichage(s.id);">
+
+  </div>
+</div>
+
+
+
+<div *ngIf="serie$ | async as serye$">
+
+  <div *ngFor="let s of serye$">
+
+
+    <img src="{{s.}}" alt="image de la série" (click)="changementDaffichage(s.id);">
+
+  </div>
+</div>
