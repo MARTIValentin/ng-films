@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './barre-nav.component.html',
   styleUrls: ['./barre-nav.component.css']
 })
-export class BarreNavComponent implements OnInit {
+export class BarreNavComponent  {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+
 
 }

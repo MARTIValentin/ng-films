@@ -8,7 +8,7 @@ import {Series} from "../modeles/Series";
   templateUrl: './saisons.component.html',
   styleUrls: ['./saisons.component.css']
 })
-export class SaisonsComponent implements OnInit {
+export class SaisonsComponent  {
 
 
   public serie$!: Observable<Series>;
@@ -18,8 +18,7 @@ export class SaisonsComponent implements OnInit {
     this.serie$ = this.svc.serie$;
   }
 
-  ngOnInit(): void {
-  }
+
 
   changementDaffichage(id: number) {
     this.svc.changementDaffichage(id);

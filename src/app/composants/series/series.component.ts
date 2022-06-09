@@ -8,7 +8,7 @@ import {Observable} from "rxjs";
   templateUrl: './series.component.html',
   styleUrls: ['./series.component.css']
 })
-export class SeriesComponent implements OnInit {
+export class SeriesComponent  {
 
   public tSerie$: Observable<Series[]>;
   public serie$!: Observable<Series>;
@@ -19,8 +19,7 @@ export class SeriesComponent implements OnInit {
   }
 
 
-  ngOnInit(): void {
-  }
+
 
   changementDaffichage(id: number) {
     this.svc.changementDaffichage(id);
