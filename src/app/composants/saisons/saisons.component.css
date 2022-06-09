@@ -1,11 +1,21 @@
-.crechercher{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  font-family: system-ui;
+.cSaisons{
+
+
 }
 
-.classSerie{
+.cbigrouteur{
+
+
+
+}
+
+.crouteur{
+  display: flex;
+  justify-content: center;
+
+}
+
+.crestesaisons{
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 5px;

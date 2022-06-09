@@ -4,27 +4,22 @@
   </form>
 </div>
 
-<div *ngIf="serie$ | async as serye$">
 
-  <div *ngFor="let s of serye$.saisons">
+<div>
+
+  <div *ngIf="tSerie$ | async as tSerie">
+
+    <div class="classSerie">
+      <div *ngFor="let s of tSerie">
 
 
-    <img src="{{s.image}}" alt="image de la série" (click)="changementDaffichage(s.id);">
+        <a routerLink="/Saisons"><img src="{{s.image}}" alt="image de la série"
+                                      (click)="changementDaffichage(s.id);"></a>
 
+      </div>
+    </div>
   </div>
 </div>
-
-
-<div *ngIf="tSerie$ | async as tSerie">
-
-  <div *ngFor="let s of tSerie">
-
-
-    <img src="{{s.image}}" alt="image de la série" (click)="changementDaffichage(s.id);">
-
-  </div>
-</div>
-
 
 
 

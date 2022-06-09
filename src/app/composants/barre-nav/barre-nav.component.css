@@ -1,0 +1,48 @@
+.cBarre{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.cAccueil{
+  font-size: 20px;
+  margin: 40px;
+  border-style: solid ;
+  border-bottom-color: darkred;
+  border-top-color: black;
+  border-left-color: black;
+  border-right: black;
+}
+
+.cSeries{
+  font-size: 20px;
+  margin: 40px;
+  border-style: solid ;
+  border-bottom-color: darkred;
+  border-top-color: black;
+  border-left-color: black;
+  border-right: black;
+}
+
+.cApropos{
+  font-size: 20px;
+  margin: 40px;
+  border-style: solid ;
+  border-bottom-color: darkred;
+  border-top-color: black;
+  border-left-color: black;
+  border-right: black;
+}
+
+#Accueil{
+  color: white;
+}
+
+#Series{
+  color: white;
+}
+
+#Apropos{
+  color: white;
+}

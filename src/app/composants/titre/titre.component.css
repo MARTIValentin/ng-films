@@ -1,0 +1,25 @@
+.cTitre{
+  display: flex;
+  justify-content: center;
+  color: darkred;
+  font-family: system-ui;
+}
+.cSpinner{
+  display: flex;
+  justify-content: center;
+  font-family: system-ui;
+}
+
+.cbigTitre{
+  background-color: black;
+  height: 100%;
+  font-family: system-ui;
+}
+
+.cflixnet{
+  display: flex;
+  justify-content: center;
+  color: darkred;
+  font-family: system-ui;
+  font-size: 15px;
+}

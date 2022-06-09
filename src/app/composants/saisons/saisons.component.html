@@ -1,0 +1,26 @@
+<div class="cSaisons">
+
+  <div *ngIf="serie$ | async as serye$">
+
+    <div class="cbigrouteur">
+
+      <div class="crouteur">
+
+        <a routerLink="/Series"><img src="{{serye$.image}}" alt=""></a>
+
+      </div>
+
+      <div class="crestesaisons">
+
+      <div *ngFor="let s of serye$.saisons">
+
+        <img src="{{s.image}}" alt="image de la série" (click)="changementDaffichage(s.id);">
+
+      </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>

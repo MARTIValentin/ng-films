@@ -1,0 +1,13 @@
+.ch2{
+  display: flex;
+  justify-content: center;
+  color: darkred;
+  font-family: system-ui;
+}
+
+.ctextaprp{
+  display: flex;
+  justify-content: center;
+  color: grey;
+  font-family: "system-ui";
+}

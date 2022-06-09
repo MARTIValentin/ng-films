@@ -1,23 +1,6 @@
-.divseries{
-  display: flex;
+.bigDiv{
+
+  flex-direction: row;
   justify-content: center;
-
+  font-family: system-ui;
 }
-
-
-.cdiv1{
-  display: flex;
-  justify-content: center;
-  color: darkred;
-}
-
-.cdiv2{
-  display: flex;
-  justify-content: center;
-}
-
-.cbigdiv{
-  background-color: black;
-}
-
-
